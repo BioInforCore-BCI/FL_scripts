@@ -1,4 +1,4 @@
-#Author: Faraz Khan, PhD and Anthony Anene, PhD
+#Author: Faraz Khan, PhD
 #FL NMF
 
 library(Seurat)
@@ -103,11 +103,4 @@ heatmap.2(cor1,col=myCol,keysize=1.0,key=T,dendrogram="col",margins =c(20,30),lh
 
 
 #Create a final top30 list of each NMF Meta Program based on the top average NMF weights across correlated NMF programs.
-
-
-
-
-
-
-
 
