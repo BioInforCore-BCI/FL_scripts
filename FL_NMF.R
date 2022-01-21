@@ -6,7 +6,7 @@ library(NMF)
 
 
 #NMF function
-#Author: Anthony Anene, PhD
+#NMF function written by: Anthony Anene, PhD
 F_NMF <- function(data, prefix="NMF", 
                   cluster = 3, nrun=100, 
                   norm=F, ncores=8, 
