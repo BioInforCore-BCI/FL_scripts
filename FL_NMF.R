@@ -5,7 +5,8 @@ library(Seurat)
 library(NMF)
 
 
-#NMF function 
+#NMF function
+#Author: Anthony Anene, PhD
 F_NMF <- function(data, prefix="NMF", 
                   cluster = 3, nrun=100, 
                   norm=F, ncores=8, 
