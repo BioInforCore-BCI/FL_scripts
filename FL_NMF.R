@@ -1,4 +1,4 @@
-#Author: Faraz Khan, PhD
+#Author: Faraz Khan, PhD and Anthony Anene, PhD
 #FL NMF
 
 library(Seurat)
@@ -6,7 +6,6 @@ library(NMF)
 
 
 #NMF function
-#NMF function written by: Anthony Anene, PhD
 F_NMF <- function(data, prefix="NMF", 
                   cluster = 3, nrun=100, 
                   norm=F, ncores=8, 
