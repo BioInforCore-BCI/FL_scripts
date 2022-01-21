@@ -1,4 +1,4 @@
-#Author: Faraz Khan, PhD
+#Author: Faraz Khan, PhD and Anthony Anene, PhD
 #FL NMF
 
 library(Seurat)
